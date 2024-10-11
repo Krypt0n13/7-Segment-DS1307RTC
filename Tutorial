@@ -1,0 +1,32 @@
+# 7-Segment-DS1307RTC
+A Script for a 7 Segment Display and a DS1307 RTC Time Module.
+
+This is an small basic script to run a clock on a 7-Segment-Display.
+The 7-Segment-Display is connected with an microcontroller and an DS1307 RTC (Real Time Clock Module).
+Before you flash the RTC you need to make sure that the small batterie is correctly installed.
+After flashling you can make sure that the RTC has the correct time via. serial monitor.
+
+
+The Script and exact build have only been tested on the esp32 and the arduino uno.
+It could possibly work with other microcontrollers aswell, as long as they have the deticated pins as the 
+esp32 and arduino uno.
+
+A wiring plan can be found in the files as well.
+The Script for flashling the RTC is included as well.
+
+The first and most import step is to buy following components:
+DS1307 RTC Module
+7-Segment-4-digit display by Adafruit
+Esp32 or Arduino Uno or an microcontroller of your choice.
+
+
+REMINDER: The Script is only optimized for the 7 Segment Display of Adafruit, i do not guarantee you that it will work
+with other 7-segment-displays aswell, but the chances are there.
+
+Before you are able to run the script and flash it on to your microcontroller you have to make sure the following libaries are installed.
+
+-Adafruit_GFX Libary
+-Adafruit_LED Backpack
+-RTClib
+
+If you have any question, try to contact me on the Krypt0n community discord server.
